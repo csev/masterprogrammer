@@ -2,9 +2,8 @@
 $targetUrl = 'https://online.dr-chuck.com/about.php';
 $advanceMs = 3000;
 $slides = [
-    ['src' => 'master-image-01-carpenter.png', 'alt' => 'Carpenter'],
-    ['src' => 'master-image-02-trades.png', 'alt' => 'Trades'],
-    ['src' => 'master-image-03-abstract.png', 'alt' => 'Abstract'],
+    ['src' => 'master-image-02-trades.png', 'alt' => 'Master Programmer: Apprentice, Journeyman, Master'],
+    ['src' => 'master-image-03-abstract.png', 'alt' => 'Master Programmer: Learn, Build, Master'],
 ];
 $slideCount = count($slides);
 ?>
