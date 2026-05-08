@@ -1,5 +1,5 @@
 <?php
-$targetUrl = 'https://online.dr-chuck.com';
+$targetUrl = 'https://online.dr-chuck.com/about.php';
 $advanceMs = 3000;
 $slides = [
     ['src' => 'master-image-01-carpenter.png', 'alt' => 'Carpenter'],
@@ -105,7 +105,7 @@ $slideCount = count($slides);
         class="stage-link"
         id="stage"
         href="<?= htmlspecialchars($targetUrl, ENT_QUOTES, 'UTF-8') ?>"
-        aria-label="Continue to online.dr-chuck.com. Full screen control: activates this link."
+        aria-label="Continue to online.dr-chuck.com/about.php. Full screen control: activates this link."
     >
         <div
             class="carousel"
